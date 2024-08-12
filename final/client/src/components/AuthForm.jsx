@@ -22,7 +22,7 @@ export default function AuthForm(props){
             errmsg={errMsg}
             placeholder="Username"/>
           <input 
-            type="text" 
+            type="password" 
             value={password} 
             name="password" 
             onChange={handleChange} 
